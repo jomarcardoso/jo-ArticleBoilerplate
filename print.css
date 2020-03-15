@@ -29,6 +29,10 @@ body {
   margin: 3cm 2cm 2cm 3cm;
 }
 
+ul {
+  padding-left: initial;
+}
+
 .print {
   display: block;
 }
@@ -42,6 +46,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   page-break-before: always;
+  margin-bottom: 14px;
 }
 
 h2 {
