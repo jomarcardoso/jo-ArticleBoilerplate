@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig", // configurações do editor
+    "dbaeumer.vscode-eslint", // eslint
+    "esbenp.prettier-vscode" // prettier
+  ]
+}

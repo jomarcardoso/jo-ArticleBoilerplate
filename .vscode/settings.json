@@ -1,0 +1,12 @@
+{
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true // faz as correções pedidas por plugins como o eslint ao salvar
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
+  "javascript.preferences.quoteStyle": "single",
+  "editor.formatOnSave": true
+}
