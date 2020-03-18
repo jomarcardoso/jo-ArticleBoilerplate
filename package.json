@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gatsby-source-filesystem": "^2.1.56",
+    "gatsby-transformer-remark": "^2.6.59"
+  }
+}
