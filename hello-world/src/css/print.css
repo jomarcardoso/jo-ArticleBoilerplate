@@ -1,0 +1,79 @@
+/* resets */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  background-color: transparent;
+  text-shadow: none;
+  filter: none;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  text-align: inherit;
+}
+
+/* definições iniciais */
+* {
+  color: #000;
+}
+
+body {
+  font: 12px 'Times New Roman', Times, serif;
+  color: #000;
+  line-height: 1.5;
+}
+
+@page {
+  size: A4;
+  margin: 3cm 2cm 2cm 3cm;
+}
+
+ul {
+  padding-left: initial;
+}
+
+.print {
+  display: block;
+}
+
+.no-print {
+  display: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  page-break-before: always;
+  margin-bottom: 14px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-style: italic;
+}
+
+p {
+  orphans: 3;
+  widows: 3;
+}
+
+p a {
+  word-wrap: break-word;
+}
+
+q:after {
+  content: ' (' attr(cite) ')';
+}
+
+.page {
+  height: 100vh;
+}

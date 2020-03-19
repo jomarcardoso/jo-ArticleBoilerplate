@@ -1,7 +1,10 @@
 ---
-path: '/blog/my-first-post'
-date: '2019-05-04'
-title: 'My first blog post'
+path: '/tcc'
+institution: 'UNIVERSIDADE FEEVALE'
+title: 'MODELO DE IMPLEMENTAÇÃO DE ACESSIBILIDADE NA WEB'
+name: 'Jomar Antônio Cardoso'
+city: 'Novo Hamburgo'
+date: '2018'
 ---
 
 # Modelo de implementação de acessibilidade
