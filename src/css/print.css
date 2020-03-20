@@ -20,13 +20,15 @@
 }
 
 body {
-  font: 12px 'Times New Roman', Times, serif;
+  font: 12pt 'Times New Roman', Times, serif;
   color: #000;
   line-height: 1.5;
 }
 
 @page {
   size: A4;
+  /* size: 595px 842px; */
+  /* size: 210mm 297mm; */
   margin: 3cm 2cm 2cm 3cm;
 }
 
