@@ -11,6 +11,7 @@
   line-height: inherit;
   font-weight: inherit;
   text-align: inherit;
+  box-sizing: border-box;
 }
 
 /* definições iniciais */
@@ -25,7 +26,7 @@ body {
 }
 
 @page {
-  size: 7in 9.25in;
+  size: A4;
   margin: 3cm 2cm 2cm 3cm;
 }
 
@@ -41,12 +42,19 @@ ul {
   display: none;
 }
 
+h2,
+h3,
+h4 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
 h1 {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   page-break-before: always;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 
 h2 {
@@ -64,6 +72,8 @@ h4 {
 p {
   orphans: 3;
   widows: 3;
+  text-indent: 1.25cm;
+  text-align: justify;
 }
 
 p a {
@@ -72,4 +82,8 @@ p a {
 
 q:after {
   content: ' (' attr(cite) ')';
+}
+
+.page {
+  height: 100vh;
 }
