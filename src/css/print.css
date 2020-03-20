@@ -29,7 +29,11 @@ body {
   size: A4;
   /* size: 595px 842px; */
   /* size: 210mm 297mm; */
-  margin: 3cm 2cm 2cm 3cm;
+  margin: 30mm 20mm 20mm 30mm;
+}
+
+img {
+  max-width: 100%;
 }
 
 ul {
@@ -86,6 +90,8 @@ q:after {
   content: ' (' attr(cite) ')';
 }
 
-.page {
-  height: 100vh;
+@media only print {
+  .page {
+    height: 100vh;
+  }
 }

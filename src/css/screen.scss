@@ -1,0 +1,28 @@
+$color-bg: #ededed;
+$padding: 25px;
+
+@media only screen {
+  body {
+    background-color: $color-bg;
+    padding: $padding;
+  }
+
+  .print {
+    margin: 0 auto;
+    font-size: 12px;
+    max-width: 100%;
+    width: 595px;
+  }
+
+  .page {
+    background-color: white;
+    padding: 85px 57px 57px 85px;
+    margin-bottom: $padding;
+    min-height: 842px;
+    box-shadow: 4px 4px 2px #00000022;
+  }
+
+  h1 {
+    margin-top: 18px;
+  }
+}
