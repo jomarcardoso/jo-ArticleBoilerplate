@@ -19,7 +19,10 @@ export default function Template({
     <div className="print">
       <Cover {...frontmatter} />
       <Summary loaded={loaded} />
-      <div className="page" dangerouslySetInnerHTML={{ __html: html }} />
+      <div
+        className="page development"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </div>
   );
 }
