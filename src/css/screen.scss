@@ -25,4 +25,8 @@ $padding: 25px;
   h1 {
     margin-top: 18px;
   }
+
+  .page h1:first-child {
+    margin-top: 0;
+  }
 }

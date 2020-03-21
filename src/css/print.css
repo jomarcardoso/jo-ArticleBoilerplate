@@ -94,4 +94,12 @@ q:after {
   .page {
     height: 100vh;
   }
+
+  table,
+  img,
+  svg {
+    break-inside: avoid;
+  }
+
+  /* box-decoration-break: clone; */
 }
