@@ -50,9 +50,19 @@ ul {
 
 h2,
 h3,
-h4 {
+h4,
+h5 {
   margin-top: 18px;
   margin-bottom: 18px;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 100px;
+    margin-bottom: -100px;
+  }
 }
 
 h1 {

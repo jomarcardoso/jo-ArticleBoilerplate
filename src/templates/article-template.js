@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { graphql } from 'gatsby';
-import '../css/print.css';
+import '../css/print.scss';
 import '../css/screen.scss';
 import Cover from '../components/cover/cover';
 import Summary from '../components/summary/summary';
